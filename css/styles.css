@@ -3016,7 +3016,9 @@ textarea.form-control-lg {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  background-color: transparent;
+  /* btn color new*/
+
+
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
@@ -3043,12 +3045,12 @@ textarea.form-control-lg {
 .btn-primary {
   color: #fff;
   background-color: #06a223;
-  border-color: #24b617;
+  border-color: #011c41;
 }
 .btn-primary:hover {
   color: #fff;
   background-color: #06a223;
-  border-color:#24b617;
+  border-color:#115fa5;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -3127,7 +3129,7 @@ textarea.form-control-lg {
 .btn-success:disabled, .btn-success.disabled {
   color: #fff;
   background-color: #007300;
-  border-color: #007300;
+  border-color: #000000;
 }
 
 .btn-info {
@@ -11354,7 +11356,7 @@ p {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #ffc800;
+  color: #f5f5f5;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   letter-spacing: 0.0625em;
@@ -11374,7 +11376,7 @@ p {
 
   
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #03fc1c;
+  color: #0fb7da;
 }
 
 @media (min-width: 992px) {
@@ -11396,7 +11398,7 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color:#555555;
+    background-color:#042152;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -11416,8 +11418,8 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #0d3b25d4;
-  background-image:linear-gradient(to right, #0a7512d4,#96CF24);
+  background: rgb(15,183,218);
+background: linear-gradient(90deg, rgba(15,183,218,1) 0%, rgba(34,102,199,1) 45%, rgba(0,0,1,1) 100%);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11947,7 +11949,10 @@ section#contact form#contactForm :-ms-input-placeholder {
 .box button {
   width: 140px;
   height: 40px;
-  background-color: #00b712;
+  /* btn*/
+  background: rgb(11,55,69);
+  background: linear-gradient(90deg, #165e72, rgb(26 69 131) 44%, rgb(30 30 78) 100%);
+
   color: #fff;
   border: none;
   outline: none;
@@ -11955,7 +11960,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   cursor: pointer;
   border-radius: 50px;
   margin-top: 40px;
-  opacity: 0.6;
+  opacity: 0.9;
   transition: 0.3s;
 
 }
@@ -11979,7 +11984,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   width: 100%;
   height: 100%;
   background-color: #00b712;
-  background-image: linear-gradient(45deg, #006838 0%, #96cf24 100%);
+  background-image: linear-gradient(45deg, #0dc0f5,#2865bd,#070f46);
   content: '';
   position: absolute;
   top: 0;
