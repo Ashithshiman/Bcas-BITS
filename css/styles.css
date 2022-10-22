@@ -94,7 +94,7 @@ body {
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(248, 246, 246, 0);
 }
 
 
@@ -3017,6 +3017,8 @@ textarea.form-control-lg {
       -ms-user-select: none;
           user-select: none;
   /* btn color new*/
+  background: rgb(11,55,69);
+  background: linear-gradient(90deg, rgba(11,55,69,1) 0%, rgba(15,33,59,1) 44%, rgba(0,0,1,1) 100%);
 
 
   border: 1px solid transparent;
@@ -3054,22 +3056,22 @@ textarea.form-control-lg {
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #d9aa00;
-  border-color: #cca000;
-  box-shadow: 0 0 0 0.25rem rgba(255, 208, 38, 0.5);
+  background-color: #1215bb;
+  border-color: #141374;
+  box-shadow: 0 0 0 0.25rem rgba(14, 69, 221, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #cca000;
-  border-color: #bf9600;
+  background-color: #218fe9;
+  border-color: #1765be;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(255, 208, 38, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(16, 5, 170, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: #0a94be;
+  border-color: #2932ac;
 }
 
 .btn-secondary {
@@ -11376,7 +11378,7 @@ p {
 
   
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #0fb7da;
+  color: #10d6ff;
 }
 
 @media (min-width: 992px) {
@@ -11416,6 +11418,7 @@ p {
 }
 header.masthead {
   padding-top: 10.5rem;
+  color: #ffffffed;
   padding-bottom: 6rem;
   text-align: center;
   background: rgb(15,183,218);
